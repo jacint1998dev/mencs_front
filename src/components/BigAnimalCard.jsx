@@ -6,6 +6,7 @@ export default function BigAnimalCard(props){
         <div className="big_card_frame" style={{
             backgroundImage: `url(${props.background})`,
           }}>
+        </div>
             <i className="fa-regular fa-heart"></i>
             <div className="big_card_name_frame">
                   <div className="big_card_name_frame2">
@@ -15,7 +16,7 @@ export default function BigAnimalCard(props){
                     </div>
                   </div>
             </div>
-        </div>
+        
         </div>
     )
 }

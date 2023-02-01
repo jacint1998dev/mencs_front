@@ -7,6 +7,7 @@ import Shelter from './components/Shelter'
 import Doctor from './components/Doctor'
 import Footer from './components/Footer'
 import Boarding from './components/Boarding';
+import Paws from './components/Paws';
 
 export default function App() {
   return (
@@ -17,8 +18,8 @@ export default function App() {
     <Shelter/>
     <Doctor/>
     <Boarding/>
+    <Paws/>
     <Footer/>
-  
    </>
   );
 }

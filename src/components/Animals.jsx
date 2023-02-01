@@ -24,9 +24,9 @@ export default function Animals(props)
                     <SmallAnimalCard text="Madár"/>
                 </div>
                 <div className="big-animal-cards">
-                    <BigAnimalCard background={catImage} name='Nyomi' text='keverék, 4 hónapos'/>
-                    <BigAnimalCard background={dogImage}   name='Nyomi' text='dsaads'/>
-                    <BigAnimalCard background={catImage} name='Nyomi' text='asdadadsa' />
+                    <BigAnimalCard background={catImage} name='Nyomi' text='keverék, 4 hónapos' />
+                    <BigAnimalCard background={dogImage} name='Bloki' text='keverék, 4 hónapos' />
+                    <BigAnimalCard background={catImage} name='Nyomi' text='keverék, 4 hónapos' />
                 </div>
             </div>
         </div>
